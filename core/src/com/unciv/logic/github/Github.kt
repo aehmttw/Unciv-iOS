@@ -244,7 +244,7 @@ object Github {
                 ?: return null
             val byteArray = file.readBytes()
             val buffer = ByteBuffer.allocateDirect(byteArray.size).put(byteArray).position(0)
-            return Pixmap(buffer)
+            return Pixmap(buffer as ByteBuffer);
         } catch (_: Throwable) {
             return null
         }

@@ -10,7 +10,7 @@ sourceSets {
 }
 
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(8)
 
     target {
         compilations.all {

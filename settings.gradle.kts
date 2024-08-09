@@ -1,1 +1,1 @@
-include("desktop", "android", "core", "tests", "server")
+include("desktop", "ios", "android", "core", "tests", "server")
